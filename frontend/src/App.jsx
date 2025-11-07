@@ -1,6 +1,7 @@
 import Header from './components/layouts/Header.jsx';
 import Footer from './components/layouts/Footer.jsx';
 import Hero from './components/sections/Hero.jsx';
+import Auth from './components/Auth.jsx';
 import React from 'react';
 import './App.css';
 
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Footer />
+      <Auth />
     </div>
     </>
   );

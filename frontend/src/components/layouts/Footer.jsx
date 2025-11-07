@@ -30,7 +30,7 @@ import React from 'react';
                 </div>
 
                 <div className='border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-400'>
-                    &copy; {new Date().getFullYear()} aiMee. All rights reserved.
+                    &copy;  {new Date().getFullYear()} aiMee. All rights reserved.
                 </div>
             </footer>
         );
