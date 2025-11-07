@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const Auth = () => {
+const Auth = ({ closeAuth }) => {
     const [mode, setMode] = useState("login"); 
     const [form, setForm] = useState({
     name: "",
@@ -75,8 +75,11 @@ const Auth = () => {
         }, []);
 
     return (
-    <div className=" relative z-[999] w-full min-h-screen flex items-center justify-center bg-gray-100">
-        <div className="bg-white w-full max-w-md p-8 rounded-lg shadow-lg">
+    <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black/50">
+        <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black/50">
+        <button
+        className="absolute top-3 right-3 text-xl text-gray-500" onClick={closeAuth}> ×
+        </button>
 
         {/* PROFILE VIEW */}
         {profile && (

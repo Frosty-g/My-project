@@ -1,7 +1,7 @@
 import Header from './components/layouts/Header.jsx';
 import Footer from './components/layouts/Footer.jsx';
 import Hero from './components/sections/Hero.jsx';
-import Auth from './components/Auth.jsx';
+import Stat from './components/sections/Stat.jsx';
 import React from 'react';
 import './App.css';
 
@@ -11,8 +11,8 @@ function App() {
     <div>
       <Header />
       <Hero />
+      <Stat />
       <Footer />
-      <Auth />
     </div>
     </>
   );
