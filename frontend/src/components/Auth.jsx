@@ -83,8 +83,8 @@ const Auth = ({ closeAuth }) => {
 
         {/* PROFILE VIEW */}
         {profile && (
-            <div className="mb-6 text-center">
-            <h2 className="text-xl font-bold">Logged in as: {profile.name}</h2>
+            <div className="mb-6 text-center bg-orange-500">
+            <h2 className="text-xl font-bold text-orange-500 ">Welcome Back {profile.name}</h2>
             </div>
         )}
 
