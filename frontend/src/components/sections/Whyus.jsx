@@ -15,9 +15,10 @@ const AboutUs = () => {
             About Us
             </h2>
             <ul className="text-white list-disc list-inside space-y-2">
-            <li>Create amazing trips and experiences</li>
-            <li>7+ years helping travelers</li>
-            <li>Explore the world with ease</li>
+                <p>We are a travel company dedicated to making unforgettable memories for you and your loved ones.</p>
+            <li>Create amazing trips and experiences for you and your loved ones around the world</li>
+            <li>7+ years helping travelers make unforgettable memories</li>
+            <li>Explore the world with ease and make unforgettable memories</li>
             </ul>
         </div>
         </div>
