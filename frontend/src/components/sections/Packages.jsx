@@ -1,13 +1,13 @@
 const Packages = () => {
     const packages = [
-    { src: "/src/assets/p1.jpg", title: "Maasai Mara Safari", price: "Ksh 30,000" },
-    { src: "/src/assets/p2.jpg", title: "Dubai Experience", price: "Ksh 45,000" },
-    { src: "/src/assets/p3.jpg", title: "Coastal Getaway", price: "ksh 25,000" },
-    { src: "/src/assets/p4.jpg", title: "Diani Luxury Trip", price: "ksh 50,000"},
-    { src: "/src/assets/p5.jpg", title: "Tsavo Adventure", price: "ksh 28,000" },
-    { src: "/src/assets/p6.jpg", title:"Kilimanjaro Hike", price: "Ksh 40,000" },
-    { src: "/src/assets/p7.jpg", title: "Nairobi City Tour", price: "ksh 10,000" },
-    { src: "/src/assets/p8.jpg", title: "Mombasa SGR Trip", price: "ksh 15,000" },
+    { src: "/images/p1.jpg", title: "Maasai Mara Safari", price: "Ksh 30,000" },
+    { src: "/images/p2.jpg", title: "Dubai Experience", price: "Ksh 45,000" },
+    { src: "/images/p3.jpg", title: "Coastal Getaway", price: "ksh 25,000" },
+    { src: "/images/p4.jpg", title: "Diani Luxury Trip", price: "ksh 50,000"},
+    { src: "/images/p5.jpg", title: "Tsavo Adventure", price: "ksh 28,000" },
+    { src: "/images/p6.jpg", title:"Kilimanjaro Hike", price: "Ksh 40,000" },
+    { src: "/images/p7.jpg", title: "Nairobi City Tour", price: "ksh 10,000" },
+    { src: "/images/p8.jpg", title: "Mombasa SGR Trip", price: "ksh 15,000" },
     ];
 
     return (

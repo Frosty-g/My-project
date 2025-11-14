@@ -6,21 +6,21 @@ const Testimonials = () => {
     {
         name: "John Mwangi",
         role: "Nairobi, Kenya",
-        img: "/src/assets/p3.jpg",
+        img: "/images/p3.jpg",
         message:
         "The trip was perfectly organized. Amazing customer service and smooth booking process.",
     },
     {
         name: "Sarah Kimani",
         role: "Mombasa, Kenya",
-        img: "/src/assets/p8.jpg",
+        img: "/images/p8.jpg",
         message:
         "Best travel experience ever! Affordable packages and great destinations.",
     },
     {
         name: "Mark Otieno",
         role: "Kisumu, Kenya",
-        img: "/src/assets/p5.jpg",
+        img: "/images/p5.jpg",
         message:
         "I loved how professional and friendly the team was. I’ll definitely book again!",
     },
@@ -90,7 +90,7 @@ const Testimonials = () => {
 
         <div className="flex justify-center md:justify-end">
             <img
-            src="/src/assets/p1.jpg"
+            src="/images/p1.jpg"
             alt="Happy clients"
             className="rounded-2xl w-full max-w-md shadow-lg"
             />

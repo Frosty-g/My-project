@@ -1,10 +1,10 @@
 import Slider from "react-slick";
 
 const featuresData = [
-    { title: "Easy Booking", image: "/src/assets/feature1.jpg", desc: "Book trips in seconds" },
-    { title: "24/7 Support", image: "/src/assets/feature2.jpg", desc: "We are always here" },
-    { title: "Custom Trips", image: "/src/assets/feature3.jpg", desc: "Tailored experiences" },
-    { title: "Best Prices", image: "/src/assets/feature4.jpg", desc: "Affordable adventures" },
+    { title: "Easy Booking", image: "/images/feature1.jpg", desc: "Book trips in seconds" },
+    { title: "24/7 Support", image: "/images/feature2.jpg", desc: "We are always here" },
+    { title: "Custom Trips", image: "/images/feature3.jpg", desc: "Tailored experiences" },
+    { title: "Best Prices", image: "/images/feature4.jpg", desc: "Affordable adventures" },
 ];
 
 const Features = () => {

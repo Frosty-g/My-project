@@ -38,7 +38,7 @@ const BestServices = () => {
 
         <div className="flex justify-center">
             <img 
-            src="/src/assets/feature1.jpg"
+            src="/images/feature1.jpg"
             alt="Best services"
             className="rounded-2xl shadow-lg w-full max-w-md"
         />
