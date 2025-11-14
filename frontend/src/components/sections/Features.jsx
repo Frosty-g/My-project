@@ -41,7 +41,7 @@ const Features = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-orange-500 mb-10 mt-1 ml-4">
             Our Features
         </h2>
-        <p className="text-white flex flex-col text-center md:text-center md:w-1/3 py-(-1)">Our features include easy booking, 24/7 support, custom trips, and best prices</p>
+        <p className="text-white flex flex-col text-center md:text-center md:w-1/3 py-(-1)"></p>
 
         <div className="w-full md:w 2/3 mt-4 md:mt-0 max-w-2xl mx-auto md:ml-95">
         <Slider {...settings}>
