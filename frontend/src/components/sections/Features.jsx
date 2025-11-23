@@ -43,7 +43,7 @@ const Features = () => {
         </h2>
         <p className="text-white flex flex-col text-center md:text-center md:w-1/3 py-(-1)"></p>
 
-        <div className="w-full md:w 2/3 mt-4 md:mt-0 max-w-2xl mx-auto md:ml-95">
+        <div className="w-full md:w 2/3 mt-4 md:mt-0 max-w-2xl mx-auto md:ml-93">
         <Slider {...settings}>
             {featuresData.map ((feature, index) => (
             <div key={index} className="px-1 md:px-2">
@@ -52,7 +52,7 @@ const Features = () => {
                 <img
                     src={feature.image}
                     alt={feature.title}
-                    className="w-full h-56 md:h-60 object-cover"/>
+                    className="w-full h-56 md:h-60 md:w-20 object-cover"/>
 
                 <div className="absolute bottom-0 w-full bg-white/90 backdrop-blur-md p-4">
                     <h3 className="text-xl font-bold text-orange-500 mb-1">{feature.title}</h3>
